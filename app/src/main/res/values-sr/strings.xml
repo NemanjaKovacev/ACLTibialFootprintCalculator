@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">LCA kalkulator</string>
+    <string name="enter_diameters">Unesi prednje-zadnji (AP) i unutrašnje-spoljašnji (ML) dijametar tibijalnog platoa izmeren na Rtg snimku</string>
+    <string name="ap_diameter_mm">AP (mm)</string>
+    <string name="ml_diameter_mm">ML (mm)</string>
+    <string name="button_calculate">Izračunaj</string>
+    <string name="result">3D površina tibijalnog pripoja prednjeg ukrštenog ligamenta (LCA) iznosi:</string>
+    <string name="square_mm">kvadratnih milimetara</string>
+    <string name="input_missing">Unos vrednosti nepotpun!</string>
+    <string name="enter_missing_input">Unesi obe tražene vrednosti</string>
+    <string name="ok">OK</string>
+    <string name="adjust_angle">Podesi sagitalni ugao bušenja u odnosu na dobijenu vrednost</string>
+    <string name="image_upper">image_upper</string>
+    <string name="image_lower">image_lower</string>
+</resources>

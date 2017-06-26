@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">ACL Tibial Footprint Calculator</string>
+    <string name="enter_diameters">Please enter anteroposterior (AP) and mediolateral (ML) diameter of the tibial plateau measured on the X-ray</string>
+    <string name="ap_diameter_mm">AP (mm)</string>
+    <string name="ml_diameter_mm">ML (mm)</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="result">The 3D area of the tibial footprint is:</string>
+    <string name="square_mm">square milimeters</string>
+    <string name="input_missing">Input value missing!</string>
+    <string name="enter_missing_input">Please enter the missing value</string>
+    <string name="ok">OK</string>
+    <string name="adjust_angle">Adjust you sagittal drilling angle accordingly</string>
+    <string name="image_upper">image_upper</string>
+    <string name="image_lower">image_lower</string>
+</resources>

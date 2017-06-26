@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayoutBaseStyle">
+
+    <TextView
+        android:id="@+id/textView3D"
+        style="@style/TextView3DStyle"
+        android:layout_marginTop="@dimen/text_view_margin_top_bigger" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        style="@style/TextViewResult" />
+
+    <TextView
+        android:id="@+id/textViewDrillAngle"
+        style="@style/TextViewDrillAngle" />
+
+</LinearLayout>

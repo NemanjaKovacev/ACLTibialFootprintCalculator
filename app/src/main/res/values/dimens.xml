@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="element_margin">8dp</dimen>
+    <dimen name="text_view_margin_top">24dp</dimen>
+    <dimen name="text_view_margin_top_bigger">90dp</dimen>
+    <dimen name="image_height_portrait">170dp</dimen>
+    <dimen name="image_height_landscape">175dp</dimen>
+    <dimen name="text_size_small">22sp</dimen>
+    <dimen name="text_size_large">26sp</dimen>
+</resources>

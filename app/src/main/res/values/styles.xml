@@ -1,0 +1,120 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LinearLayoutBaseStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+    </style>
+
+    <style name="LinearLayoutUpperStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/element_margin</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="LinearLayoutLowerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/element_margin</item>
+        <item name="android:layout_marginLeft">@dimen/element_margin</item>
+        <item name="android:layout_marginRight">@dimen/element_margin</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="TextViewEnterStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/element_margin</item>
+        <item name="android:layout_marginRight">@dimen/element_margin</item>
+        <item name="android:layout_marginTop">@dimen/text_view_margin_top</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/enter_diameters</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="ImageViewStylePortrait">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/image_height_portrait</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ImageViewStyleLandscape">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/image_height_landscape</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="TextInputLayoutStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/element_margin</item>
+        <item name="android:layout_marginLeft">@dimen/element_margin</item>
+        <item name="android:layout_marginRight">@dimen/element_margin</item>
+        <item name="android:text">@string/button_calculate</item>
+    </style>
+
+    <style name="TextView3DStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/element_margin</item>
+        <item name="android:layout_marginLeft">@dimen/element_margin</item>
+        <item name="android:layout_marginRight">@dimen/element_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/result</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="TextViewResult">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/element_margin</item>
+        <item name="android:layout_marginTop">@dimen/element_margin</item>
+        <item name="android:layout_marginRight">@dimen/element_margin</item>
+        <item name="android:layout_marginBottom">@dimen/element_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewDrillAngle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/element_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/adjust_angle</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutBaseStyle"
+    tools:context="com.example.nemanja.tibialfootprintcalculator.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewEnter"
+        style="@style/TextViewEnterStyle" />
+
+    <LinearLayout
+        style="@style/LinearLayoutUpperStyle"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/imageAP"
+            style="@style/ImageViewStylePortrait"
+            android:contentDescription="@string/image_upper"
+            android:src="@drawable/merenje_ml" />
+
+        <android.support.design.widget.TextInputLayout style="@style/TextInputLayoutStyle">
+
+            <EditText
+                android:id="@+id/editTextAP"
+                style="@style/EditTextStyle"
+                android:hint="@string/ap_diameter_mm" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutLowerStyle"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/imageML"
+            style="@style/ImageViewStylePortrait"
+            android:contentDescription="@string/image_lower"
+            android:src="@drawable/merenje_ap" />
+
+        <android.support.design.widget.TextInputLayout style="@style/TextInputLayoutStyle">
+
+            <EditText
+                android:id="@+id/editTextML"
+                style="@style/EditTextStyle"
+                android:hint="@string/ml_diameter_mm" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        style="@style/ButtonStyle" />
+
+</LinearLayout>
